@@ -1,0 +1,30 @@
+# MML Studio 12: Chemical Reaction Prediction
+# Python 3.10-3.12 recommended
+
+# Core ML
+torch>=2.0.0
+transformers>=4.40.0
+tokenizers>=0.19.1
+sentencepiece
+accelerate
+datasets
+
+# Cheminformatics
+rdkit
+
+# Data and visualization
+pandas
+numpy
+plotly
+tqdm
+gdown
+
+# Optional: Atom mapping
+rxnmapper
+
+# Optional: IBM RXN API
+rxn4chemistry
+
+# Jupyter
+jupyter
+ipywidgets
